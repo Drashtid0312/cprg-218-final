@@ -1,12 +1,12 @@
 .testimonial {
-    background: #fff;
+    background-color: #f5fafa;
     padding: 4rem 2rem;
     text-align: center;
     color: #333;
 }
   
 .testimonial h2 {
-    color: #7886C7;
+    color: #00796b;
     text-transform: uppercase;
     position: relative;
     display: inline-block;
