@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 	box-sizing: border-box;  
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -87,6 +90,12 @@ header div p{
     margin-top: 1rem;
 }
 
+header nav ul li a:hover {
+    color:rgb(141, 171, 197);
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
 /*FOOTER*/
 footer{
     background-color: #608BC1;
@@ -94,7 +103,7 @@ footer{
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
-    margin-top: auto;
+    /*margin-top: auto;*/
 }
 
 /*MEDIA*/
